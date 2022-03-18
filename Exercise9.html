@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Kelvin Foster" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>“Registration Form” Kelvin Foster</title>
+    </head>
+    <body bgcolor="lightgrey">
+        <h1>Sign Up Now!</h1>
+        <h3>Fields marked (<font style="color:red">*</font>) are REQUIRED.</h3>
+        <form>
+            <fieldset style="width:35%">
+                <legend>Your Details</legend>
+                <table>
+                    <tr>
+                        <td><label for="name">Name <font style="color:red">*</font></label></td>
+                        <td><input type="text" id="name" placeholder="Full name" required pattern="[a-zA-Z\s]+"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email <font style="color:red">*</font></label></td>
+                        <td><input type="email" id="email" placeholder="e.g.kelvin@sample.code" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone <font style="color:red">*</font></label></td>
+                        <td><input type="text" id="phone" placeholder="09123456789" required maxlength="11" minlength="11" pattern="[0-9]+"></td>
+                    </tr>
+                </table> 
+            </fieldset>
+            <fieldset style="width:35%">
+                <legend>Delivery Address</legend>
+                <table>
+                    <tr>
+                        <td><label for="address">Address <font style="color:red">*</font></label></td>
+                        <td><input type="text" id="address" placeholder="House/Apt.Number and Street" required size="30%"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="District/Barangay">District/Barangay <font style="color:red">*</font></label></td>
+                        <td><input type="text" id="District/Barangay" placeholder="Location" required size="30%"> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="ct">City <font style="color:red">*</font></label></td>
+                        <td><select>
+                            <option value="volvo">Baguio</option>
+                            <option value="saab">Tokyo</option>
+                            <option value="opel">Berlin</option>
+                            <option value="audi">Manila </option>
+                            <option value="audi">Kyiv</option>
+                            <option value="audi">Moscow</option>
+                            <option value="audi">Washington,D.C</option></select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pc">Postal Code <font style="color:red">*</font></label></td>
+                        <td><input type="text" id="pc" pattern="[0-9]+" size="30%"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Pv">Province <font style="color:red">*</font></label></td>
+                        <td><select>
+                            <option value="volvo">Chelyabinsk</option>
+                            <option value="saab">Ilocos Sur</option>
+                            <option value="opel">La Union</option>
+                            <option value="audi">Pangasinan</option>
+                            <option value="audi">Kherson Oblast</option>
+                            <option value="audi">Hokaido</option>
+                            <option value="audi">Arkhangelsk</option></select></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset style="width:35%">
+                <legend>Membership Information</legend>
+                <table>
+                    <tr>
+                        <td><label for="us">Username <font style="color:red">*</font></label></td>
+                        <td><input type="text" id="us" size="30%" placeholder="Min of 8 characters" minlength="8" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password <font style="color:red">*</font></label></td>
+                        <td><input type="password" id="pass" size="30%" placeholder="6 - 12 characters" minlength="6" maxlength="12" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mg">Magazine Subscriptions</label></td>
+                        <td><input type="checkbox">AARP The Magazine<br>
+                            <input type="checkbox">Game Informer<br>
+                            <input type="checkbox">Good Housekeeping<br>
+                            <input type="checkbox">People Magazine<br>
+                            <input type="checkbox">Consumer Reports</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Sign Up">
+        </form>
+    </body>
+</html>
