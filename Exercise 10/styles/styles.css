@@ -1,0 +1,35 @@
+body{
+    background-color: #ffffff;
+}
+h1{
+    text-align: center;color: #010203;font-size:35pt;
+}
+section{
+    color: #033133;font-size: medium;
+}
+nav{
+    text-align: center;font-size: small;
+}
+details{
+    font-family: "Lucida Console", "Courier New", monospace;font-size: medium;
+}
+article{
+    font-family: "Lucida Console", "Courier New", monospace;font-size: medium;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+hr{
+    border: 3px solid black;
+  border-radius: 2px;
+}
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 25%;
+}
