@@ -1,0 +1,83 @@
+body{
+    background-image: url('https://github.com/fosterkelvin/HUMCOM1_IAA120212022/blob/main/img/pexels-sebastiaan-stam-1480690.jpg?raw=true');
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #128bee;
+    margin: 4px 2px;
+    padding: 16px 32px;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+.button:hover {
+    background-color: #128bee;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.logo {
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    height: 200px;
+  }
+p{
+    color:white;
+}
+@media (max-width: 1200px){
+    .b1{
+        width: 20%;
+        height: 100px;
+        font-family: Calibri;
+        margin-left: 20%;
+        text-align: center;
+        box-sizing: border-box;
+        float: left;
+    }
+    .b2{
+        width: 45%;
+        height: 100px;
+        font-family: Calibri;
+        margin-right: 20%;
+        margin-left: auto;
+        text-align: center;
+        box-sizing: border-box;
+        float: right;
+    }
+    .b3{
+        width: 60%;
+        height: 100px;
+        font-family: Calibri;
+        margin-right: 20%;
+        margin-top: 20%;
+        margin-left: 20%;
+        text-align: left;
+        box-sizing: border-box;
+        float: right;
+    }
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 320px){
+
+}
