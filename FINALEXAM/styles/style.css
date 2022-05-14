@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,.2)), url('https://github.com/fosterkelvin/HUMCOM1_IAA120212022/blob/main/img/paris%20bg.png?raw=true');
+}
+
+header{
+    text-emphasis: none;  
+    height: 100vh;
+}
+
+.logo img{
+    margin-top: 1%;
+    margin-left:50px;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: rgb(49, 33, 33);
+    font-size: 70px;
+}
+
+.description{
+    margin-top: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.description h4{
+    font-family: cursive;
+    color: rgb(49, 33, 33);
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,.2);
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li{
+    position: relative;
+}
+
+.navbar details ul li{
+    margin-top: 20pt;
+    background: rgb(71, 67, 67);
+}
+
+.navbar details,
+.navbar ul li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    padding: 20px 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.navbar details ul > li:last-child,
+.navbar ul > li:last-child a{
+	margin-right: 0;
+}
+
+.navbar ul li a .icon {
+    width: 25px;
+    display: inline-block;
+}
+
+.navbar details:hover,
+.navbar ul li a:hover{
+	background: rgb(49, 33, 33);
+}
+
+.navbar details ul li:hover{
+    background: rgb(49, 33, 33);
+    color: rgb(255, 255, 255);
+}
+
+summary{
+    margin-left: 5%;
+}
+
+.expl{
+    position: absolute;
+    background-color: rgb(49, 33, 33);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.expl:hover{
+    background: rgb(121, 83, 14);
+}
+
+.center {
+    margin-top: 3%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+.ex{
+    color: rgb(49, 33, 33);
+    font-size: 50px;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.gallery{
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 96%;
+    width: 96%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #6bcbeb;
+}
+
+.gallery:hover .overlay {
+    opacity: 1;
+}
+
+.txt {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
