@@ -193,3 +193,25 @@ summary{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.fd{
+    color: rgb(49, 33, 33);
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-60%,-60%);
+}
+
+.fds{
+    float: right;
+}
+
+.tp{
+    color: rgb(49, 33, 33);
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-60%,-60%);
+}
